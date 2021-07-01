@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Tab Extension",
+    "description": "Description",
+    "version": "1.0",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16":"icon.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "tabs", "storage"
+    ]
+}
